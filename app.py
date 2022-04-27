@@ -73,5 +73,5 @@ def update_contact(id):
     return redirect(url_for("index"))
 
 if __name__ == '__main__':
-    app.run(host='localhost',port=3000, debug= True)#
-    #app.run(host="0.0.0.0" port=3000)
+    #app.run(host='localhost',port=3000, debug= True)#
+    app.run(host="0.0.0.0" port=3000)
